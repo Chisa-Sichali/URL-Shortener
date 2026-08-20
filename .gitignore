@@ -1,0 +1,23 @@
+# Binaries / build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# IDE — GoLand / JetBrains
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local env / secrets
+.env
+.env.*
